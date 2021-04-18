@@ -18,7 +18,7 @@ p {
 <p style="color:red" align="center">星期二下午五六节课</p>
 <p align="right">time 13:50~15:20</p>
 <hr />
-<p>ye<b>buzhidao</b>zhege<strong>neirong</strong>xiesha</p>
+<p>five</p>
 <!--这个就是内容-->
 <p style="color:#FF0">稍等片刻、即将跳转到<b>微软必应</b></p>
 <meta http-equiv="refresh" content="10;URL=http://www.bing.com">
