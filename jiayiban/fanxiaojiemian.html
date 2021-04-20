@@ -18,11 +18,14 @@
 <p>离校登记：<span id="lixiaodengji" style="color:#000;"></span></p>
 <p>返校登记：<span id="fanxiaodengji" style="color:#000;"></span></p>
 <h3><font color="#FF0000">当前返校界面</font></h3>
-<a href="qjjm.html"><img src="images/sx.jpg"></a>
+<a href="fanxiaojiemian.html"><img src="images/sx.jpg"></a>
 <p class="xsc" align="center">学生处&nbsp;学生管理科</p>
 <script>
             function time(){//编写获取时间的函数
 		var date = new Date();//创建JS自带的Date日期对象
+		
+		var month = date.getMonth()+1;//获取月，注意其范围是0~30，使用时需要加1
+		//month=month<10?"0"+month:month;//三则运算符判断是个位数则前面加一个零，好看
 		 
 		var day = date.getDate();//获取日
 		day=day<10?"0"+day:day;
@@ -39,7 +42,7 @@
 		console.log(current);//在控制台打印当前时间
 		document.getElementById("dangqian").innerHTML=current;//获取对应ID标签的对象，将变量current显示在对应位置
 		
-		var current = month+"月"+day+"日"+(hour-2)+"时"+minute+"分";
+		var current = month+"月"+(day-1)+"日"+(hour-2)+"时"+minute+"分";
 		console.log(current);//在控制台打印当前时间
 		document.getElementById("shenqingshijian").innerHTML=current;
 		
