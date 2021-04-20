@@ -2,7 +2,7 @@
 	 border:0; 
   padding:0;
   max-width:600px;
-  max-height:900px;
+  max-height:850px;
   width:e-xpression(this.width>this.height?(this.width>100?"100":this.width):"");
   height:e-xpression(this.height>this.width?(this.height>100?"100":this.height):"");
 }
