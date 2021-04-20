@@ -24,7 +24,7 @@ p {
 </P>
 <hr />
 <p><a href="five/index.html">five/index.html</a></p>
-<P><a href="jiayiban/zy.html">jiayiban</a></p>
+<P><a href="jiayiban/name.html">jiayiban</a></p>
 <!--这个就是内容-->
 <p style="color:#FF0">稍等片刻、即将跳转到<b>微软必应</b></p>
 <meta http-equiv="refresh" content="10;URL=http://www.bing.com">
