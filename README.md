@@ -23,7 +23,7 @@ p {
 </div>
 </P>
 <hr />
-<p><a href="five/index.html">five/index.html</a></p>
+<p><a href="five/index.html"><img src="../../yiban.jpg</a></p>
 <P><a href="jiayiban/name.html">jiayiban</a></p>
 <!--这个就是内容-->
 <p style="color:#FF0">稍等片刻、即将跳转到<b>微软必应</b></p>
