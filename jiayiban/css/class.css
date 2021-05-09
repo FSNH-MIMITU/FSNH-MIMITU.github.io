@@ -1,27 +1,27 @@
+
 .img {
-	 border:0; 
-  padding:0;
-  max-width:600px;
-  max-height:800px;
-  width:e-xpression(this.width>this.height?(this.width>100?"100":this.width):"");
-  height:e-xpression(this.height>this.width?(this.height>100?"100":this.height):"");
+	border: 0;
+	padding: 0;
+	max-width: 600px;
+	max-height: 800px;
+ width:e-xpression(this.width>this.height?(this.width>100?"100":this.width):"");
+ height:e-xpression(this.height>this.width?(this.height>100?"100":this.height):"");
 }
-.xsc{
-	background-color:#999999;
-	text-align:center;
-	}
-	p {
+.xsc {
+	background-color: #999999;
+	text-align: center;
+}
+p {
 	font-size: 30px;
-	font-family:"微软雅黑"；
-	letter-spacing:1px;
+ font-family:"微软雅黑"； letter-spacing:1px;
 }
-.red{
-	color:#F00;
-	}
-.dangqian{
-	font-size:72px;
-	background-color:#FFF;
-	}
-.xhx{
-	text-decoration:underline;
-	}
+.red {
+	color: #F00;
+}
+.dangqian {
+	font-size: 72px;
+	background-color: #FFF;
+}
+.xhx {
+	text-decoration: underline;
+}
