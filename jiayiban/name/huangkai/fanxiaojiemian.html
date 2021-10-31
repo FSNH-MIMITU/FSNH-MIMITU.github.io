@@ -37,6 +37,9 @@
 		var minute = date.getMinutes();//获取分钟
 		minute=minute<10?"0"+minute:minute;
 		
+			var second = date.getSeconds();//获取秒
+                second =second <10?"0"+second :second ;
+
  
 		var current = day+"日"+hour+"时"+minute+"分"+second+"秒";
 		console.log(current);//在控制台打印当前时间
